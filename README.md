@@ -9,20 +9,18 @@ Passive subdomain enumeration tool for bug bounty and security testing.
 export PD_API_KEY=your_key
 export VT_API_KEY=your_key
 ```
-The script securely reads these values at runtime to authenticate requests to:
-ProjectDiscovery DNS API
-VirusTotal API
+The script securely reads these values at runtime to authenticate requests to ProjectDiscovery DNS API & VirusTotal API
 
 ## Make the Script Executable
 ```bash
 chmod +x subdomain_enum.sh
 ```
-
+This command is used to run the tool.
 ## Run the Enumeration
 ```bash
 ./subdomain_enum.sh example.com
 ```
-
+Enter the website to perform enumeration.
 ## Output Structure
 ```bash
 example.com_results/
